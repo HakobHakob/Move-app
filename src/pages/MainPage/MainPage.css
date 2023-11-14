@@ -1,0 +1,84 @@
+.main-page {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.move-info-container {
+  width: 30%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 10%;
+}
+
+.move-info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-txt {
+  color: #858688;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.movie-title-img {
+  max-width: 500px;
+  height: 100vh;
+  max-height: 50px;
+}
+
+.move-description-block {
+  display: flex;
+  gap: 15px;
+}
+
+.lorem-ipsum {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.video-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-video {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.btn-play::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../../../public/assets/icons/arrow.png") no-repeat;
+  margin-right: 5px;
+}
+
+.more-info-btn {
+  background-color: #08198b;
+  color: white;
+}
+
+
